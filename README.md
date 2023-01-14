@@ -68,6 +68,13 @@ Fixed file has been encoded to `UTF-8` and you can set your subtitle settings in
 
 ![subtitle_image_6](./images/subtitle_6.png)
 
+## Using VS-Code as an alternative method
+
+#### NOTE:
+This method does not automatically set the encoding type to `UTF-8` and requires manual configuration of subtitle settings in the player.
+
+![vscode](./images/vscode.gif)
+
 ## Bugs & Issues
 Please feel free to report any bugs or issues to us, email to: 0xdolan@gmail.com or open issues on Github.
 
