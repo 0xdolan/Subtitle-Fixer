@@ -1,5 +1,9 @@
 # Subtitle Fixer
 
+**Subtitles** and captions are lines of dialogue or other text displayed at the bottom of the screen in films, television programs, video games or other visual media. They can be transcriptions of the screenplay, translations of it, or information to help viewers who are deaf or hard-of-hearing understand what is shown ([*wikipedia*](https://en.wikipedia.org/wiki/Subtitles)).
+
+![subtitle_example](./images/subtitle_example.png)
+
 The **Subtitle Fixer** is a simple tool that helps you fix subtitles in *Kurdish (ckb)*, *Persian*, and *Arabic*.
 If you have ever encountered issues (*see below images*) when watching a movie with its subtitles, you have come to the right place to find a solution.
 
