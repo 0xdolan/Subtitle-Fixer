@@ -56,8 +56,8 @@ class Subtitle_Fixer:
     ) -> str:
         """Fix encoding of the subtitle file"""
         file_path = Path(file_path)
-        file_name, file_ext = str(file_path.name).replace(" ", "_").split(".")
-        fixd_name = f"{file_name}_fixed.{file_ext}"
+        file_name, file_ext = file_path.name.replace(" ", "_").rsplit(".", 1)
+        fixd_name = f"{file_name.replace('.', '_')}_fixed.{file_ext}"
         if file_path.exists() and file_ext in self.subtitle_extensions:
             with open(str(file_path), "r", encoding=src_encoding) as rf:
                 data = rf.read()
